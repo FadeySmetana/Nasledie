@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Наследие</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="wow-animation/animate.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
+  <link href='styles/style.css' rel='stylesheet' type='text/css'>
+  <link href='styles/stlCarousel.css' rel='stylesheet' type='text/css'>
+  <link href='styles/stlCards.css' rel='stylesheet' type='text/css'>
+  <link href='styles/stlSelect.css' rel='stylesheet' type='text/css'>
+  <link href='styles/stlSot.css' rel='stylesheet' type='text/css'>
+  <link href='styles/stlCheckbox.css' rel='stylesheet' type='text/css'>
+  <link href='styles/stlPlanCards.css' rel='stylesheet' type='text/css'>
+  <link href='styles/stlForm.css' rel='stylesheet' type='text/css'>
+  <link href='styles/stlAccord.css' rel='stylesheet' type='text/css'>
+  <link href='styles/stlModal.css ' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="wow-animation/wow.min.js"></script>
+
+</head>
+<body>
+
+
+  
+<header class="main_h">
+
+    <div class="row">
+        <a class="logo" href="#">Наследие</a>
+
+        <div class="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href=".sec01">О компании</a></li>
+                <li><a href=".sec02">Клиенты</a></li>
+                <li><a href=".sec03">Контакты</a></li>
+                <li><a href=".sec04">Преимущества</a></li>
+                <li><a href=".sec05">Оставить заявку</a></li>
+                <li><button class="btnEnter" data-bs-toggle="modal" data-bs-target="#UserModal" type="submit">Вход</button></li>
+            </ul>
+        </nav>
+
+    </div> <!-- / row -->
+
+</header>
+
+<div class="hero container1" style="background: var(--clrMain) url(images/b.png); background-size: 100%">
+
+    <!--<img src="images/oiLeft.png" alt="" class="Himg" width="10000px">
+    <img src="images/b2.png" alt="" style="margin-bottom: -60px;">-->
+</div>
+
+
+<div class="sec0 container USLUGI">
+  <h1 class="usSec wow fadeInDown">Больше, чем просто аутсорсинг бухгалтерии</h1>
+  <h1 class="usHead wow zoomIn">Наши услуги</h1>
+  <div class="usCard">
+    <div class="usCardSec">
+      <div class="card-us" style="width: 18rem;">
+        <div class="card-body-us">
+          <h5 class="card-title-us wow fadeInLeft">Регистрация бизнеса</h5>
+          <p class="card-text-us wow fadeInLeft">Регистрация ООО, АО, НП, ИП. Регистрация представительств. Ликвидация компаний.</p>
+          
+        </div>
+      </div>
+      <div class="card-us" style="width: 18rem;">
+        <div class="card-body-us">
+          <h5 class="card-title-us wow fadeInLeft">Ведение бухгалтерского и кадрового учёта</h5>
+          <p class="card-text-us wow fadeInLeft">Бухгалтерское обслуживание и сопровождение юридических лиц в Москве. 20 лет опыта!</p>
+          
+        </div>
+      </div>
+      <div class="card-us" style="width: 18rem;">
+        <div class="card-body-us">
+          <h5 class="card-title-us wow fadeInLeft">Оптимизация налогообложения</h5>
+          <p class="card-text-us wow fadeInLeft">Комплексная оптимизации налогообложения! Устойчивое предложение на рынке услуг!</p>
+          
+        </div>
+      </div>
+      <div class="card-us" style="width: 18rem;">
+        <div class="card-body-us">
+          <h5 class="card-title-us wow fadeInLeft">Составление отчётности</h5>
+          <p class="card-text-us wow fadeInLeft">Подготовка и сдача отчетности ООО в налоговую инспекцию и фонды. По разумной цене!</p>
+          
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="usCardSec2">
+      <div class="card-us" style="width: 18rem;">
+        <div class="card-body-us">
+          <h5 class="card-title-us wow fadeInLeft">Юридическая консультация</h5>
+          <p class="card-text-us wow fadeInLeft">Юридические услуги для малых и крупных предприятий. Помощь для арбитража. Налоговые споры. Возврат долгов. Адвокаты. Юристы.</p>
+          
+        </div>
+      </div>
+      <div class="card-us" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title-us wow fadeInLeft">Аккредитация</h5>
+          <p class="card-text-us wow fadeInLeft">Комплексное сопровождение на аккредитацию, набор НМО и подготовка к аккредитации</p>
+          
+        </div>
+      </div>
+      <div class="card-us" style="width: 18rem;">
+        <div class="card-body-us">
+          <h5 class="card-title-us wow fadeInLeft">Расчёт заработной платы</h5>
+          <p class="card-text-us wow fadeInLeft">Качественно и в срок рассчитаем зарплату и другие выплаты сотрудникам компаний.</p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="sec05 container EXPR">
+  <h1 class="exHead wow fadeInDown">Быстрый аудит</h1>
+  <!--<h1 class="exBack">ЭКСПРЕСС</h1>-->
+  <form class="exMenu" id="APform">
+    <div class="mb-3">
+      <h1 class="wow fadeIn" style="color: var(--clrSec);">Какая у Вас система налогообложения?</h1>
+      <input name="nalog" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ОСНО, УСН, ЕНВД или УСН+ЕНВД" style="color: var(--clrDetails); width: 20%;">
+    </div>
+    <br>
+    <div class="mb-3">
+      <h1 class="wow fadeIn" style="color: var(--clrSec);">Количество сотрудников</h1>
+      <input name="sot" type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Количество сотрудников" min="1" max="500" style="color: var(--clrDetails); width: 20%;">
+    </div>
+    <br>
+    <div class="mb-3">
+      <h1 class="wow fadeIn" style="color: var(--clrSec);">Ваш номер телефона.</h1>
+      <input name="tel" type="tel" class="form-control" id="exampleInputPassword1" placeholder="+7(999) 999-99-99" maxlength="15" pattern="^[0-9]+$" style="color: var(--clrDetails); width: 20%;">
+    </div>
+    <br>
+    <button type="submit" class="btn btn-premium-ex wow fadeIn">Оставить заявку</button>
+  </form>
+</div>
+
+<div class="sec04 container PLAN">
+  <h1 class="plHead">Мы поможем снизить затраты на бухуслуги до 60%</h1>
+  <div class="plMain">
+    <div class="plTitle">
+      <p>Оказываем бухгалтерские услуги предпринимателям, находящимся на любой системе налогообложения.</p>
+      <p>Готовы выступать как в качестве замены штатной бухгалтерии, так и в качестве дополнения к ней.</p>
+      <div class="plBack">60%</div>
+    </div>
+    <div class="plCard">
+      <div class="plCardd">
+        <div class="cardd" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">01</h5>
+            <p class="card-text">Защитим Вас от проверок и штрафов</p>
+            <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#USexampleModal">Заказать услугу</a>
+          </div>
+        </div>
+  
+        <div class="cardd" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">02</h5>
+            <p class="card-text">Выберем оптимальную систему налогообложения</p>
+            <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#USexampleModal">Заказать услугу</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="plCardd">
+        <div class="cardd" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">03</h5>
+            <p class="card-text">Снизим налоговые расходы</p>
+            <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#USexampleModal">Заказать услугу</a>
+          </div>
+        </div>
+  
+        <div class="cardd" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">04</h5>
+            <p class="card-text">Поможем сосредоточится на решении актуальных вопросов бизнеса</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="sec0 container Premium">
+  <h1 class="prHead wow bounceInRight">Сервис по приятным ценам</h1>
+  <div class="prMain">
+    <div class="FORM">
+      <div class="fHead wow flipInX">Получите точный расчет стоимости за 7 минут</div>
+      <form class="fMain wow fadeIn" id="USform">
+        <div class="mb-3">
+          <input name="USname" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Как к Вам можно обращаться?" style="color: var(--clrDetails);">
+        </div>
+        <div class="mb-3">
+          <input name="USemail" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш Email" style="color: var(--clrDetails);">
+        </div>
+        <div class="mb-3">
+          <input name="USphone" type="tel" class="form-control" id="exampleInputPassword1" placeholder="+7(999) 999-99-99" maxlength="15" pattern="^[0-9]+$" style="color: var(--clrDetails);">
+        </div>
+        <button type="submit" class="btn btn-premium">Получить</button>
+      </form>
+    </div>
+    <div class="prCard">
+      <div class="plCardd">
+        <div class="prCard" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title"><img src="https://thumb.tildacdn.com/tild6231-3961-4565-b833-653862353935/-/resize/45x/-/format/webp/hytr.png" alt=""></h5>
+            <p class="card-texts">Не нужно никуда ездить и отвозить документы</p>
+          </div>
+        </div>
+  
+        <div class="prCard" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title"><img src="https://thumb.tildacdn.com/tild3863-3138-4537-b963-623334653433/-/resize/45x/-/format/webp/uyj67uy65.png" alt=""></h5>
+            <p class="card-texts">Мы не уходим в отпуск и не болеем - когда Вам нужно - мы с Вами</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="plCardd">
+        <div class="prCard" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title"><img src="https://thumb.tildacdn.com/tild3830-3135-4761-a136-353836623564/-/resize/45x/-/format/webp/tyyt5r.png" alt=""></h5>
+            <p class="card-texts">Гарантируем конфиденциальность информации</p>
+          </div>
+        </div>
+  
+        <div class="prCard" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title"><img src="https://thumb.tildacdn.com/tild6432-6261-4531-b731-313337643033/-/resize/45x/-/format/webp/tyhrdtgr.png" alt=""></h5>
+            <p class="card-texts">Ответственность наших бухгалтеров застрахована на 1 млн рублей</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+<div class="sec01 container Company">
+  <h1 class="cpHead wow slideInLeft"><span>О</span> компании</h1>
+  <div class="cpMain">
+    <div class="cpDes">
+      <div class="cpTitle wow fadeInLeft"><span1>З</span1>амина <span1>К</span1>афарова <span>/ Основатель компании</span></div>
+      <div class="cpText wow fadeIn">
+        <p><span>М</span>ы предоставляем бухгалтерские и юридические услуги уже более 10 лет. Мой собственный опыт работы в сфере насчитывает ровно 20 лет.</p>
+        <p><span>К</span> цифрам отношусь с любовью и творчески, что, казалось бы, невозможно. Однако, именно такой подход принёс мне неплохие результаты и возможность разрешать любые трудности, касаемые документов, специализированных органов и учреждений, с которыми сталкивается каждый человек, создающий своё дело.
+          Что не менее важно: я знаю, как минимизировать Ваши расходы в том числе и на наши услуги.</p>
+      </div>
+    </div>
+    <div class="cpImg wow fadeInRight"><img src="https://thumb.tildacdn.com/tild3563-3435-4662-b765-623531316131/-/resize/440x/-/format/webp/photo.jpg" alt=""></div>
+  </div>
+</div>
+
+<div class="sec02 container Clients">
+  <h1 class="clHead">Н<span>аши</span> К<span>лиенты</span></h1>
+  <div class="clMain">
+    <div class="clImg wow fadeInLeft"><img src="images/Clients.png" alt="Clients"></div>
+    <div class="clRight">
+      <div class="clDes">
+        <div class="clText wow zoomInRight">
+          <p><span>М</span>ы не "накручиваем" оценки. Все реальные отзывы можно прочесть на наших страницах в социальных сетях.</p>
+          <p><span>С</span>истема работы нашей компании позволяет предлагать нашим клиентам самые низкие цены на рынке, в чём Вы можете убедиться, ознакомившись с прайс-листами других организаций.</p>
+        </div>
+        <button type="submit" class="btn btn-premium" data-bs-toggle="modal" data-bs-target="#exampleModal">Оставьте отзыв</button>
+      </div>
+      <div class="accordion accordion-flush wow fadeInRight" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Игорь Лосев <span> / </span> Генеральный директор
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-item-text">
+              <img src="https://thumb.tildacdn.com/tild6664-3032-4938-a263-343232643163/-/format/webp/kirill-foto.png" alt="ИГОРЬ" height="100px" width="auto">
+              <div class="accordion-body">Когда сам создаёшь свой бизнес, то нет времени на ведение бухгалтерского учёта. Сначала пытаешься нанять приходящего бухгалтера, но понимаешь, что человек просто делает какую-то часть работы, даже не вникая в особенности твоего бизнеса. Нанимая бухгалтера в штат, обнаруживаешь, насколько увеличиваются расходы на налоги и его зарплату. Аутсорсинг нас спас, в буквальном смысле.</div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Ольга Кубова <span> / </span> Предприниматель
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-item-text">
+              <img src="https://thumb.tildacdn.com/tild6134-6537-4332-b237-333037383939/-/format/webp/Natalie-Face-Circle.png" alt="ИГОРЬ" height="100px" width="auto">
+              <div class="accordion-body">Хотел бы выразить свою благодарность всему коллективу Вашей компании и особенно Веронике Вознесенской за высокую скорость решения наших вопросов, профессионализм и трепетное отношение к работе.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<div class="modal fade" id="UserModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Войдите в систему</h5>
+      </div>
+      <form class="modal-body" action="php/Users.php" method="post">
+        <div class="form-floating mb-3">
+          <input name="login" type="name" class="form-control" id="floatingInput" style="border: 1px solid var(--clrDetails); color: var(--clrDetails);" required>
+          <label for="floatingInput">Ваш логин</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input name="pass" type="password" class="form-control" id="floatingInput" style="border: 1px solid var(--clrDetails); color: var(--clrDetails);" required>
+          <label for="floatingInput">Пароль</label>
+        </div>
+        <button type="button" class="btn btn-secondary btn-k" data-bs-dismiss="modal" style="background-color: var(--clrMain);">Close</button>
+        <button type="submit" class="btnM btn-M btn-k">Войти</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Оставьте отзыв</h5>
+      </div>
+      <form class="modal-body" id="form">
+        <div class="form-floating mb-3">
+          <input name="name" type="name" class="form-control" id="floatingInput" style="border: 1px solid var(--clrDetails); color: var(--clrDetails);" required>
+          <label for="floatingInput">Ваше имя</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input name="email" type="email" class="form-control" id="floatingInput" style="border: 1px solid var(--clrDetails); color: var(--clrDetails);" required>
+          <label for="floatingInput">Email</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input name="com" type="text" class="form-control" id="floatingInput" style="border: 1px solid var(--clrDetails); color: var(--clrDetails);">
+          <label for="floatingInput">Ваша компания и должность</label>
+        </div>
+        <div class="form-floating" style="font-family: 'Montserrat', sans-serif;">
+          <textarea name="comm" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px; border: 1px solid var(--clrDetails); color: var(--clrDetails);" required></textarea>
+          <label for="floatingTextarea2">Ваш отзыв</label>
+        </div>
+        <button type="button" class="btn btn-secondary btn-k" data-bs-dismiss="modal" style="background-color: var(--clrMain);">Close</button>
+        <button type="submit" class="btnM btn-M btn-k">Save changes</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="USexampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Заказать услугу</h5>
+      </div>
+      <form class="modal-body" id="USform">
+        <div class="form-floating mb-3">
+          <input name="USname" type="name" class="form-control" id="floatingInput" style="border: 1px solid var(--clrDetails); color: var(--clrDetails);">
+          <label for="floatingInput">Ваше имя</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input name="USemail" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш Email" style="border: 1px solid var(--clrDetails); color: var(--clrDetails);">
+          <label for="floatingInput">Ваш Email</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input name="USphone" type="phone" class="form-control" id="floatingInput" style="border: 1px solid var(--clrDetails); color: var(--clrDetails);" maxlength="15" pattern="^[0-9]+$">
+          <label for="floatingInput">+7(999)999-99-99</label>
+        </div>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: var(--clrMain);">Close</button>
+        <button type="submit" class="btnM btn-M">Save changes</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer class="sec03">© 2020. Все права защищены.</footer>
+<!-- partial -->
+  <script  src="scripts/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" language="javascript">
+    $(document).ready(function(){
+      $("#form").submit(function(){
+        $.ajax({
+          type: "POST",
+          url: "php/postComm.php",
+          data: $(this).serialize()
+        }).done(function(){
+          alert("Спасибо за отзыв");
+        });
+        return false;
+      });
+
+      $("#USform").submit(function(){
+        $.ajax({
+          type: "POST",
+          url: "php/postUs.php",
+          data: $(this).serialize()
+        }).done(function(){
+          alert("Спасибо за заявку");
+        });
+        return false;
+      });
+
+      $("#APform").submit(function(){
+        $.ajax({
+          type: "POST",
+          url: "php/postAp.php",
+          data: $(this).serialize()
+        }).done(function(){
+          alert("Спасибо за заявку");
+        });
+        return false;
+      });
+
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+:root{
+    --clrMain: rgb(17, 17, 17);
+    --clrSec: rgb(255, 255, 255);
+    --clrDetails:rgb(197, 178, 113);
+  }
+/* input type number */
+.input-number {
+    display: flex;
+    align-items: center;
+    background-color: var(--clrMain);
+    border: 1px solid rgba(255, 255, 255, 0.384);
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: var(--clrDetails);
+    font-size: 16px;
+    text-align: center;
+    width: calc(33px * 3);
+}
+
+.input-number__input {
+    background: #E5E8EE;
+    width: 32px;
+    height: 32px;
+    border: none;
+    padding: 8px;
+    text-align: center;
+    padding: 1%;
+}
+
+.input-number__minus,
+.input-number__plus {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+.input-number__minus:hover{
+    border-color: var(--clrSec);
+}
+.input-number__plus:hover{
+    border-color: var(--clrSec);
+}

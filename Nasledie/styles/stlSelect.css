@@ -1,0 +1,85 @@
+:root{
+    --clrMain: rgb(17, 17, 17);
+    --clrSec: rgb(255, 255, 255);
+    --clrDetails:rgb(197, 178, 113);
+  }
+.select {
+    display: block;
+    position: relative;
+    color: var(--clrDetails);
+    background-color: var(--clrMain);
+    font-size: 14px;
+    font-weight: 100;
+    height: 50px;
+    box-sizing: border-box;
+    height: 60px;
+    font-size: 16px;
+    line-height: 1.33;
+    outline: 0;
+    width: 20%;
+    border-radius: 0;
+    background: transparent;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+}
+
+.new-select {
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.384);
+    padding: 10px 15px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.new-select__list {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    border: 1px solid rgba(255, 255, 255, 0.384);
+    border-left: 1px solid var(--clrDetails);
+    cursor: pointer;
+    width: 100%;
+    z-index: 2;
+    background: transparent;
+    background-color: var(--clrMain);
+    user-select: none;
+}
+
+.new-select__list.on {
+    display: block;
+}
+
+.new-select__item span {
+    display: block;
+    padding: 10px 15px;
+    color: var(--clrDetails);
+}
+
+.new-select:after {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 9px;
+    top: 9px;
+    background: url('path-to-image') no-repeat right center / cover;
+    opacity: 0.6;
+
+    -webkit-transition: all .27s ease-in-out;
+        -o-transition: all .27s ease-in-out;
+            transition: all .27s ease-in-out;
+
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+         -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+
+.new-select.on:after {
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+         -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
